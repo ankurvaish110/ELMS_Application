@@ -77,6 +77,7 @@ namespace Courseware.Controllers
             return result;
         }
         [HttpPost]
+        [Authorize(Roles = "Instructor")]
         public bool UpdateCourse(Course course)
         {
             _logger.LogInformation("Inside UpdateCourse method");
