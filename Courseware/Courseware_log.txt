@@ -1,0 +1,1191 @@
+2023-07-06 12:49:11.029 +05:30 [DBG] Hosting starting
+2023-07-06 12:49:12.256 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-06 12:49:12.307 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-06 12:49:12.319 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-06 12:49:12.328 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 12:49:12.365 +05:30 [INF] Hosting environment: Development
+2023-07-06 12:49:12.366 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-06 12:49:12.375 +05:30 [DBG] Hosting started
+2023-07-06 12:49:12.417 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-06 12:49:12.499 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-06 12:49:12.505 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-06 12:49:12.542 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-06 12:49:12.542 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 12:49:12.876 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-06 12:49:12.908 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-06 12:49:12.913 +05:30 [INF] Request finished in 499.0136ms 200 text/html;charset=utf-8
+2023-07-06 12:49:13.025 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-06 12:49:13.029 +05:30 [INF] Request finished in 3.7655ms 200 application/javascript; charset=utf-8
+2023-07-06 12:49:13.138 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-06 12:49:13.174 +05:30 [INF] Request finished in 35.3776ms 200 text/javascript; charset=UTF-8
+2023-07-06 12:49:13.433 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-06 12:49:13.434 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-06 12:49:13.435 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 12:49:13.549 +05:30 [INF] Request finished in 116.8044ms 200 application/json;charset=utf-8
+2023-07-06 12:50:53.538 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-06 12:50:53.540 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-06 12:50:53.540 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 12:50:53.557 +05:30 [INF] Request finished in 18.9191ms 200 application/json;charset=utf-8
+2023-07-06 12:51:11.012 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:52268/api/Courseware/AddCourse application/json 124
+2023-07-06 12:51:11.015 +05:30 [INF] No CORS policy found for the specified request.
+2023-07-06 12:51:11.032 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Courseware/AddCourse'
+2023-07-06 12:51:11.041 +05:30 [DBG] Endpoint 'Courseware.Controllers.CoursewareController.AddCourse (Courseware)' with route pattern 'api/Courseware/AddCourse' is valid for the request path '/api/Courseware/AddCourse'
+2023-07-06 12:51:11.042 +05:30 [DBG] Request matched endpoint 'Courseware.Controllers.CoursewareController.AddCourse (Courseware)'
+2023-07-06 12:51:11.043 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-06 12:51:11.044 +05:30 [INF] Executing endpoint 'Courseware.Controllers.CoursewareController.AddCourse (Courseware)'
+2023-07-06 12:51:11.053 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2023-07-06 12:51:11.085 +05:30 [INF] Route matched with {action = "AddCourse", controller = "Courseware"}. Executing controller action with signature Boolean AddCourse(LMSAPI.Models.Course) on controller Courseware.Controllers.CoursewareController (Courseware).
+2023-07-06 12:51:11.091 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-06 12:51:11.091 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-06 12:51:11.091 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-06 12:51:11.091 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-06 12:51:11.092 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-06 12:51:11.092 +05:30 [DBG] Executing controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-06 12:51:11.173 +05:30 [DBG] Executed controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-06 12:51:11.183 +05:30 [DBG] Attempting to bind parameter 'course' of type 'LMSAPI.Models.Course' ...
+2023-07-06 12:51:11.186 +05:30 [DBG] Attempting to bind parameter 'course' of type 'LMSAPI.Models.Course' using the name '' in request data ...
+2023-07-06 12:51:11.186 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-06 12:51:11.197 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'LMSAPI.Models.Course'
+2023-07-06 12:51:11.198 +05:30 [DBG] Done attempting to bind parameter 'course' of type 'LMSAPI.Models.Course'.
+2023-07-06 12:51:11.198 +05:30 [DBG] Done attempting to bind parameter 'course' of type 'LMSAPI.Models.Course'.
+2023-07-06 12:51:11.199 +05:30 [DBG] Attempting to validate the bound parameter 'course' of type 'LMSAPI.Models.Course' ...
+2023-07-06 12:51:11.212 +05:30 [DBG] Done attempting to validate the bound parameter 'course' of type 'LMSAPI.Models.Course'.
+2023-07-06 12:51:11.294 +05:30 [INF] Executing action method Courseware.Controllers.CoursewareController.AddCourse (Courseware) - Validation state: "Valid"
+2023-07-06 12:51:14.746 +05:30 [INF] Inside AddCourse method
+2023-07-06 12:51:30.415 +05:30 [ERR] Object reference not set to an instance of an object.
+2023-07-06 12:51:32.300 +05:30 [INF] Executed action method Courseware.Controllers.CoursewareController.AddCourse (Courseware), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21000.2445ms.
+2023-07-06 12:51:32.305 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-06 12:51:32.308 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-07-06 12:51:32.309 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-07-06 12:51:32.309 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-06 12:51:32.309 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-06 12:51:32.310 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-06 12:51:32.310 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-07-06 12:51:32.323 +05:30 [INF] Executed action Courseware.Controllers.CoursewareController.AddCourse (Courseware) in 21223.0071ms
+2023-07-06 12:51:32.323 +05:30 [INF] Executed endpoint 'Courseware.Controllers.CoursewareController.AddCourse (Courseware)'
+2023-07-06 12:51:32.324 +05:30 [INF] Request finished in 21313.2642ms 200 application/json; charset=utf-8
+2023-07-06 12:52:49.615 +05:30 [DBG] Hosting starting
+2023-07-06 12:52:50.449 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-06 12:52:50.457 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-06 12:52:50.457 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-06 12:52:50.458 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 12:52:50.458 +05:30 [INF] Hosting environment: Development
+2023-07-06 12:52:50.458 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-06 12:52:50.458 +05:30 [DBG] Hosting started
+2023-07-06 12:52:50.596 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-06 12:52:50.671 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-06 12:52:50.675 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-06 12:52:50.705 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-06 12:52:50.709 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 12:52:51.056 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-06 12:52:51.102 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-06 12:52:51.106 +05:30 [INF] Request finished in 515.0016ms 200 text/html;charset=utf-8
+2023-07-06 12:52:51.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-06 12:52:51.516 +05:30 [INF] Request finished in 6.4534ms 200 application/javascript; charset=utf-8
+2023-07-06 12:52:51.615 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-06 12:52:51.670 +05:30 [INF] Request finished in 54.2786ms 200 text/javascript; charset=UTF-8
+2023-07-06 12:52:52.109 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-06 12:52:52.110 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-06 12:52:52.110 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 12:52:52.209 +05:30 [INF] Request finished in 100.5817ms 200 application/json;charset=utf-8
+2023-07-06 12:57:41.863 +05:30 [DBG] Hosting starting
+2023-07-06 12:57:43.042 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-06 12:57:43.055 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-06 12:57:43.055 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-06 12:57:43.065 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 12:57:43.065 +05:30 [INF] Hosting environment: Development
+2023-07-06 12:57:43.065 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-06 12:57:43.065 +05:30 [DBG] Hosting started
+2023-07-06 12:57:43.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-06 12:57:43.206 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-06 12:57:43.209 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-06 12:57:43.245 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-06 12:57:43.245 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 12:57:45.500 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-06 12:57:45.675 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-06 12:57:45.699 +05:30 [INF] Request finished in 2544.8142ms 200 text/html;charset=utf-8
+2023-07-06 12:57:46.401 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-06 12:57:46.412 +05:30 [INF] Request finished in 11.0943ms 200 application/javascript; charset=utf-8
+2023-07-06 12:57:46.575 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-06 12:57:46.612 +05:30 [INF] Request finished in 37.1732ms 200 text/javascript; charset=UTF-8
+2023-07-06 12:57:47.098 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-06 12:57:47.099 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-06 12:57:47.100 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 12:57:47.223 +05:30 [INF] Request finished in 125.2787ms 200 application/json;charset=utf-8
+2023-07-06 13:12:54.154 +05:30 [DBG] Hosting starting
+2023-07-06 13:12:55.167 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-06 13:12:55.173 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-06 13:12:55.174 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-06 13:12:55.174 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 13:12:55.174 +05:30 [INF] Hosting environment: Development
+2023-07-06 13:12:55.174 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-06 13:12:55.174 +05:30 [DBG] Hosting started
+2023-07-06 13:12:55.861 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-06 13:12:56.223 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-06 13:12:56.228 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-06 13:12:56.261 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-06 13:12:56.261 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 13:12:56.693 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-06 13:12:56.753 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-06 13:12:56.759 +05:30 [INF] Request finished in 901.4358ms 200 text/html;charset=utf-8
+2023-07-06 13:12:57.678 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-06 13:12:57.686 +05:30 [INF] Request finished in 8.5464ms 200 application/javascript; charset=utf-8
+2023-07-06 13:12:58.069 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-06 13:12:58.120 +05:30 [INF] Request finished in 51.546ms 200 text/javascript; charset=UTF-8
+2023-07-06 13:12:59.047 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-06 13:12:59.049 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-06 13:12:59.049 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 13:12:59.209 +05:30 [INF] Request finished in 161.9082ms 200 application/json;charset=utf-8
+2023-07-06 13:26:04.551 +05:30 [DBG] Hosting starting
+2023-07-06 13:26:05.514 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-06 13:26:05.549 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-06 13:26:05.549 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-06 13:26:05.549 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 13:26:05.549 +05:30 [INF] Hosting environment: Development
+2023-07-06 13:26:05.550 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-06 13:26:05.550 +05:30 [DBG] Hosting started
+2023-07-06 13:26:05.693 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-06 13:26:05.757 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-06 13:26:05.762 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-06 13:26:05.792 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-06 13:26:05.793 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 13:26:06.046 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-06 13:26:06.104 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-06 13:26:06.108 +05:30 [INF] Request finished in 418.0162ms 200 text/html;charset=utf-8
+2023-07-06 13:26:06.204 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-06 13:26:06.209 +05:30 [INF] Request finished in 4.6444ms 200 application/javascript; charset=utf-8
+2023-07-06 13:26:06.297 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-06 13:26:06.367 +05:30 [INF] Request finished in 70.6234ms 200 text/javascript; charset=UTF-8
+2023-07-06 13:26:07.483 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-06 13:26:07.485 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-06 13:26:07.486 +05:30 [DBG] Request did not match any endpoints
+2023-07-06 13:26:07.624 +05:30 [INF] Request finished in 141.6397ms 200 application/json;charset=utf-8
+2023-07-10 13:29:04.783 +05:30 [DBG] Hosting starting
+2023-07-10 13:29:05.542 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 13:29:05.563 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 13:29:05.563 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 13:29:05.584 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 13:29:05.584 +05:30 [INF] Hosting environment: Development
+2023-07-10 13:29:05.584 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 13:29:05.584 +05:30 [DBG] Hosting started
+2023-07-10 13:29:05.630 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 13:29:05.682 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 13:29:05.685 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 13:29:05.710 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 13:29:05.710 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 13:29:07.013 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 13:29:07.048 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 13:29:07.053 +05:30 [INF] Request finished in 1424.2858ms 200 text/html;charset=utf-8
+2023-07-10 13:29:07.209 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 13:29:07.222 +05:30 [INF] Request finished in 12.5893ms 200 application/javascript; charset=utf-8
+2023-07-10 13:29:07.836 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 13:29:07.839 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 13:29:07.839 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 13:29:07.943 +05:30 [INF] Request finished in 107.7656ms 200 application/json;charset=utf-8
+2023-07-10 13:37:54.629 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 13:37:54.630 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 13:37:54.630 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 13:37:54.660 +05:30 [INF] Request finished in 31.249ms 200 application/json;charset=utf-8
+2023-07-10 14:10:58.038 +05:30 [DBG] Hosting starting
+2023-07-10 14:10:58.774 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:10:58.794 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:10:58.794 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:10:58.804 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:10:58.804 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:10:58.805 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:10:58.805 +05:30 [DBG] Hosting started
+2023-07-10 14:10:58.847 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:10:58.901 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:10:58.903 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:10:58.933 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:10:58.934 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:11:01.007 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:11:01.124 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:11:01.133 +05:30 [INF] Request finished in 2288.0453ms 200 text/html;charset=utf-8
+2023-07-10 14:11:01.633 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:11:01.642 +05:30 [INF] Request finished in 9.1448ms 200 application/javascript; charset=utf-8
+2023-07-10 14:11:01.758 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:11:01.807 +05:30 [INF] Request finished in 50.3462ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:11:02.186 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:11:02.187 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:11:02.187 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:11:02.305 +05:30 [INF] Request finished in 119.2499ms 200 application/json;charset=utf-8
+2023-07-10 14:12:38.633 +05:30 [DBG] Hosting starting
+2023-07-10 14:12:39.121 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:12:39.127 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:12:39.127 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:12:39.134 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:12:39.134 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:12:39.134 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:12:39.134 +05:30 [DBG] Hosting started
+2023-07-10 14:12:39.191 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:12:39.243 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:12:39.246 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:12:39.274 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:12:39.274 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:12:39.518 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:12:39.560 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:12:39.566 +05:30 [INF] Request finished in 377.5687ms 200 text/html;charset=utf-8
+2023-07-10 14:12:39.597 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:12:39.602 +05:30 [INF] Request finished in 4.61ms 200 application/javascript; charset=utf-8
+2023-07-10 14:12:39.620 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:12:39.707 +05:30 [INF] Request finished in 86.6378ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:12:39.845 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:12:39.846 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:12:39.846 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:12:39.966 +05:30 [INF] Request finished in 120.4655ms 200 application/json;charset=utf-8
+2023-07-10 14:14:11.847 +05:30 [DBG] Hosting starting
+2023-07-10 14:14:12.515 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:14:12.516 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:14:12.516 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:14:12.517 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:14:12.517 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:14:12.517 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:14:12.517 +05:30 [DBG] Hosting started
+2023-07-10 14:14:12.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:14:12.735 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:14:12.738 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:14:12.772 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:14:12.772 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:14:13.072 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:14:13.149 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:14:13.154 +05:30 [INF] Request finished in 489.011ms 200 text/html;charset=utf-8
+2023-07-10 14:14:13.217 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:14:13.217 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:14:13.231 +05:30 [INF] Request finished in 14.0412ms 200 application/javascript; charset=utf-8
+2023-07-10 14:14:13.388 +05:30 [INF] Request finished in 170.99ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:14:13.503 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:14:13.503 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:14:13.503 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:14:13.650 +05:30 [INF] Request finished in 146.6527ms 200 application/json;charset=utf-8
+2023-07-10 14:16:41.587 +05:30 [DBG] Hosting starting
+2023-07-10 14:16:42.372 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:16:42.405 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:16:42.405 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:16:42.406 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:16:42.406 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:16:42.407 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:16:42.407 +05:30 [DBG] Hosting started
+2023-07-10 14:16:42.521 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:16:42.596 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:16:42.599 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:16:42.630 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:16:42.631 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:16:42.977 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:16:43.054 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:16:43.058 +05:30 [INF] Request finished in 541.1442ms 200 text/html;charset=utf-8
+2023-07-10 14:16:43.583 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:16:43.588 +05:30 [INF] Request finished in 5.4149ms 200 application/javascript; charset=utf-8
+2023-07-10 14:16:43.693 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:16:43.761 +05:30 [INF] Request finished in 68.7157ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:16:44.128 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:16:44.130 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:16:44.131 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:16:44.225 +05:30 [INF] Request finished in 97.4392ms 200 application/json;charset=utf-8
+2023-07-10 14:18:19.914 +05:30 [DBG] Hosting starting
+2023-07-10 14:18:20.910 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:18:20.920 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:18:20.920 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:18:20.944 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:18:20.945 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:18:20.945 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:18:20.945 +05:30 [DBG] Hosting started
+2023-07-10 14:18:21.030 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:18:21.087 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:18:21.090 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:18:21.123 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:18:21.123 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:18:23.978 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:18:24.069 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:18:24.074 +05:30 [INF] Request finished in 3047.1165ms 200 text/html;charset=utf-8
+2023-07-10 14:18:24.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:18:24.314 +05:30 [INF] Request finished in 5.9787ms 200 application/javascript; charset=utf-8
+2023-07-10 14:18:24.592 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:18:24.653 +05:30 [INF] Request finished in 60.4596ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:18:25.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:18:25.072 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:18:25.075 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:18:25.182 +05:30 [INF] Request finished in 112.3128ms 200 application/json;charset=utf-8
+2023-07-10 14:19:04.428 +05:30 [DBG] Hosting starting
+2023-07-10 14:19:05.190 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:19:05.212 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:19:05.212 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:19:05.213 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:19:05.213 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:19:05.213 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:19:05.213 +05:30 [DBG] Hosting started
+2023-07-10 14:19:05.328 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:19:05.406 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:19:05.410 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:19:05.444 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:19:05.445 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:19:05.839 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:19:05.889 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:19:05.920 +05:30 [INF] Request finished in 594.5331ms 200 text/html;charset=utf-8
+2023-07-10 14:19:06.027 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:19:06.030 +05:30 [INF] Request finished in 3.0334ms 200 application/javascript; charset=utf-8
+2023-07-10 14:19:06.265 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:19:06.421 +05:30 [INF] Request finished in 156.9983ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:19:07.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:19:07.122 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:19:07.122 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:19:07.233 +05:30 [INF] Request finished in 113.4011ms 200 application/json;charset=utf-8
+2023-07-10 14:20:33.089 +05:30 [DBG] Hosting starting
+2023-07-10 14:20:33.896 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:20:33.927 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:20:33.927 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:20:33.928 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:20:33.928 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:20:33.928 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:20:33.928 +05:30 [DBG] Hosting started
+2023-07-10 14:20:34.047 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:20:34.120 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:20:34.126 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:20:34.158 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:20:34.159 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:20:34.426 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:20:34.503 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:20:34.508 +05:30 [INF] Request finished in 464.4287ms 200 text/html;charset=utf-8
+2023-07-10 14:20:34.637 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:20:34.640 +05:30 [INF] Request finished in 3.8155ms 200 application/javascript; charset=utf-8
+2023-07-10 14:20:34.816 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:20:34.857 +05:30 [INF] Request finished in 41.1169ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:20:35.346 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:20:35.348 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:20:35.349 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:20:35.452 +05:30 [INF] Request finished in 106.0159ms 200 application/json;charset=utf-8
+2023-07-10 14:21:20.773 +05:30 [DBG] Hosting starting
+2023-07-10 14:21:21.631 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:21:21.656 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:21:21.656 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:21:21.657 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:21:21.657 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:21:21.657 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:21:21.657 +05:30 [DBG] Hosting started
+2023-07-10 14:21:21.736 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:21:21.793 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:21:21.797 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:21:21.853 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:21:21.853 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:21:22.154 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:21:22.199 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:21:22.205 +05:30 [INF] Request finished in 472.044ms 200 text/html;charset=utf-8
+2023-07-10 14:21:22.542 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:21:22.547 +05:30 [INF] Request finished in 5.5248ms 200 application/javascript; charset=utf-8
+2023-07-10 14:21:22.804 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:21:22.829 +05:30 [INF] Request finished in 25.14ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:21:23.398 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:21:23.400 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:21:23.400 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:21:23.491 +05:30 [INF] Request finished in 92.5649ms 200 application/json;charset=utf-8
+2023-07-10 14:23:16.590 +05:30 [DBG] Hosting starting
+2023-07-10 14:23:17.400 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:23:17.433 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:23:17.433 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:23:17.434 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:23:17.434 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:23:17.434 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:23:17.434 +05:30 [DBG] Hosting started
+2023-07-10 14:23:17.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:23:17.581 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:23:17.585 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:23:17.610 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:23:17.610 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:23:17.936 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:23:17.983 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:23:17.987 +05:30 [INF] Request finished in 480.6029ms 200 text/html;charset=utf-8
+2023-07-10 14:23:18.049 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:23:18.056 +05:30 [INF] Request finished in 6.5458ms 200 application/javascript; charset=utf-8
+2023-07-10 14:23:18.079 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:23:18.168 +05:30 [INF] Request finished in 88.895ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:23:18.471 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:23:18.472 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:23:18.473 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:23:18.576 +05:30 [INF] Request finished in 105.919ms 200 application/json;charset=utf-8
+2023-07-10 14:26:16.532 +05:30 [DBG] Hosting starting
+2023-07-10 14:26:17.357 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:26:17.392 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:26:17.392 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:26:17.392 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:26:17.392 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:26:17.392 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:26:17.392 +05:30 [DBG] Hosting started
+2023-07-10 14:26:17.476 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:26:17.540 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:26:17.543 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:26:17.576 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:26:17.576 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:26:17.921 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:26:17.970 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:26:17.974 +05:30 [INF] Request finished in 500.9021ms 200 text/html;charset=utf-8
+2023-07-10 14:26:18.040 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:26:18.045 +05:30 [INF] Request finished in 4.4862ms 200 application/javascript; charset=utf-8
+2023-07-10 14:26:18.107 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:26:18.131 +05:30 [INF] Request finished in 24.2882ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:26:19.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:26:19.108 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:26:19.108 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:26:19.204 +05:30 [INF] Request finished in 97.5358ms 200 application/json;charset=utf-8
+2023-07-10 14:30:08.768 +05:30 [DBG] Hosting starting
+2023-07-10 14:30:09.499 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:30:09.556 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:30:09.556 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:30:09.556 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:30:09.557 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:30:09.557 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:30:09.557 +05:30 [DBG] Hosting started
+2023-07-10 14:30:09.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:30:09.667 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:30:09.669 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:30:09.705 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:30:09.705 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:30:10.010 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:30:10.081 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:30:10.089 +05:30 [INF] Request finished in 480.5228ms 200 text/html;charset=utf-8
+2023-07-10 14:30:10.218 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:30:10.220 +05:30 [INF] Request finished in 2.6684ms 200 application/javascript; charset=utf-8
+2023-07-10 14:30:10.329 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:30:10.448 +05:30 [INF] Request finished in 118.2794ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:30:11.130 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:30:11.131 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:30:11.131 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:30:11.253 +05:30 [INF] Request finished in 123.3044ms 200 application/json;charset=utf-8
+2023-07-10 14:38:40.389 +05:30 [DBG] Hosting starting
+2023-07-10 14:38:41.275 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:38:41.285 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:38:41.285 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:38:41.286 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:38:41.286 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:38:41.286 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:38:41.286 +05:30 [DBG] Hosting started
+2023-07-10 14:38:41.441 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:38:41.491 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:38:41.495 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:38:41.530 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:38:41.531 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:38:41.864 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:38:41.909 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:38:41.914 +05:30 [INF] Request finished in 480.8172ms 200 text/html;charset=utf-8
+2023-07-10 14:38:42.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:38:42.624 +05:30 [INF] Request finished in 7.4185ms 200 application/javascript; charset=utf-8
+2023-07-10 14:38:42.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:38:42.827 +05:30 [INF] Request finished in 52.5278ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:38:43.050 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:38:43.052 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:38:43.053 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:38:43.162 +05:30 [INF] Request finished in 112.892ms 200 application/json;charset=utf-8
+2023-07-10 14:51:02.141 +05:30 [DBG] Hosting starting
+2023-07-10 14:51:02.984 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:51:03.010 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:51:03.010 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:51:03.011 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:51:03.011 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:51:03.011 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:51:03.011 +05:30 [DBG] Hosting started
+2023-07-10 14:51:03.239 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:51:03.312 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:51:03.323 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:51:03.361 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:51:03.361 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:51:03.899 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:51:03.949 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:51:03.954 +05:30 [INF] Request finished in 718.81ms 200 text/html;charset=utf-8
+2023-07-10 14:51:04.060 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:51:04.066 +05:30 [INF] Request finished in 6.1704ms 200 application/javascript; charset=utf-8
+2023-07-10 14:51:04.115 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:51:04.151 +05:30 [INF] Request finished in 35.8623ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:51:04.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:51:04.536 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:51:04.536 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:51:04.645 +05:30 [INF] Request finished in 111.6854ms 200 application/json;charset=utf-8
+2023-07-10 14:56:08.488 +05:30 [DBG] Hosting starting
+2023-07-10 14:56:09.408 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:56:09.454 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:56:09.454 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:56:09.454 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:56:09.454 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:56:09.454 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:56:09.454 +05:30 [DBG] Hosting started
+2023-07-10 14:56:09.621 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:56:09.708 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:56:09.712 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:56:09.744 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:56:09.744 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:56:10.144 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:56:10.195 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:56:10.199 +05:30 [INF] Request finished in 582.134ms 200 text/html;charset=utf-8
+2023-07-10 14:56:10.559 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:56:10.565 +05:30 [INF] Request finished in 6.8342ms 200 application/javascript; charset=utf-8
+2023-07-10 14:56:11.093 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:56:11.187 +05:30 [INF] Request finished in 94.0704ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:56:11.714 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:56:11.716 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:56:11.716 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:56:11.832 +05:30 [INF] Request finished in 117.5592ms 200 application/json;charset=utf-8
+2023-07-10 14:57:56.300 +05:30 [DBG] Hosting starting
+2023-07-10 14:57:57.143 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:57:57.182 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:57:57.182 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:57:57.185 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:57:57.202 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:57:57.202 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:57:57.202 +05:30 [DBG] Hosting started
+2023-07-10 14:57:57.288 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:57:57.371 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:57:57.374 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:57:57.404 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:57:57.404 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:57:57.716 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:57:57.753 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:57:57.758 +05:30 [INF] Request finished in 476.2408ms 200 text/html;charset=utf-8
+2023-07-10 14:57:57.912 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:57:57.918 +05:30 [INF] Request finished in 6.8796ms 200 application/javascript; charset=utf-8
+2023-07-10 14:57:58.054 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:57:58.147 +05:30 [INF] Request finished in 93.1394ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:57:58.809 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:57:58.810 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:57:58.810 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:57:58.954 +05:30 [INF] Request finished in 145.7579ms 200 application/json;charset=utf-8
+2023-07-10 14:59:25.420 +05:30 [DBG] Hosting starting
+2023-07-10 14:59:26.721 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 14:59:26.751 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 14:59:26.751 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 14:59:26.752 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 14:59:26.752 +05:30 [INF] Hosting environment: Development
+2023-07-10 14:59:26.752 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 14:59:26.752 +05:30 [DBG] Hosting started
+2023-07-10 14:59:26.863 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 14:59:26.941 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 14:59:26.949 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 14:59:26.980 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 14:59:26.981 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:59:27.380 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 14:59:27.551 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 14:59:27.556 +05:30 [INF] Request finished in 695.8119ms 200 text/html;charset=utf-8
+2023-07-10 14:59:27.714 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 14:59:27.719 +05:30 [INF] Request finished in 4.9884ms 200 application/javascript; charset=utf-8
+2023-07-10 14:59:27.786 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 14:59:27.835 +05:30 [INF] Request finished in 49.1999ms 200 text/javascript; charset=UTF-8
+2023-07-10 14:59:28.774 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 14:59:28.777 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 14:59:28.777 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 14:59:28.891 +05:30 [INF] Request finished in 117.0092ms 200 application/json;charset=utf-8
+2023-07-10 15:05:16.456 +05:30 [DBG] Hosting starting
+2023-07-10 15:05:17.369 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 15:05:17.408 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 15:05:17.409 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 15:05:17.438 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 15:05:17.438 +05:30 [INF] Hosting environment: Development
+2023-07-10 15:05:17.440 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 15:05:17.440 +05:30 [DBG] Hosting started
+2023-07-10 15:05:17.554 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 15:05:17.623 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 15:05:17.627 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 15:05:17.659 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 15:05:17.659 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 15:05:17.969 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 15:05:18.046 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 15:05:18.055 +05:30 [INF] Request finished in 503.9533ms 200 text/html;charset=utf-8
+2023-07-10 15:05:18.590 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 15:05:18.594 +05:30 [INF] Request finished in 3.7822ms 200 application/javascript; charset=utf-8
+2023-07-10 15:05:18.641 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 15:05:18.687 +05:30 [INF] Request finished in 46.1171ms 200 text/javascript; charset=UTF-8
+2023-07-10 15:05:19.084 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 15:05:19.085 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 15:05:19.086 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 15:05:19.197 +05:30 [INF] Request finished in 112.7131ms 200 application/json;charset=utf-8
+2023-07-10 15:08:08.309 +05:30 [DBG] Hosting starting
+2023-07-10 15:08:09.642 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 15:08:09.670 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 15:08:09.671 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 15:08:09.694 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 15:08:09.695 +05:30 [INF] Hosting environment: Development
+2023-07-10 15:08:09.695 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 15:08:09.695 +05:30 [DBG] Hosting started
+2023-07-10 15:08:09.805 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 15:08:09.864 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 15:08:09.867 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 15:08:09.896 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 15:08:09.896 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 15:08:10.256 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 15:08:10.345 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 15:08:10.349 +05:30 [INF] Request finished in 548.3128ms 200 text/html;charset=utf-8
+2023-07-10 15:08:10.563 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 15:08:10.569 +05:30 [INF] Request finished in 6.0731ms 200 application/javascript; charset=utf-8
+2023-07-10 15:08:10.938 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 15:08:11.121 +05:30 [INF] Request finished in 182.323ms 200 text/javascript; charset=UTF-8
+2023-07-10 15:08:12.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 15:08:12.151 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 15:08:12.152 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 15:08:12.280 +05:30 [INF] Request finished in 133.9813ms 200 application/json;charset=utf-8
+2023-07-10 15:10:15.063 +05:30 [DBG] Hosting starting
+2023-07-10 15:10:15.912 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-10 15:10:15.922 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-10 15:10:15.922 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-10 15:10:15.922 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-10 15:10:15.922 +05:30 [INF] Hosting environment: Development
+2023-07-10 15:10:15.922 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-10 15:10:15.923 +05:30 [DBG] Hosting started
+2023-07-10 15:10:16.066 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-10 15:10:16.123 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-10 15:10:16.129 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-10 15:10:16.158 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-10 15:10:16.160 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 15:10:16.457 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-10 15:10:16.500 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-10 15:10:16.504 +05:30 [INF] Request finished in 441.0435ms 200 text/html;charset=utf-8
+2023-07-10 15:10:16.622 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-10 15:10:16.625 +05:30 [INF] Request finished in 3.2545ms 200 application/javascript; charset=utf-8
+2023-07-10 15:10:16.686 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-10 15:10:16.718 +05:30 [INF] Request finished in 32.5158ms 200 text/javascript; charset=UTF-8
+2023-07-10 15:10:17.058 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-10 15:10:17.060 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-10 15:10:17.060 +05:30 [DBG] Request did not match any endpoints
+2023-07-10 15:10:17.214 +05:30 [INF] Request finished in 155.9346ms 200 application/json;charset=utf-8
+2023-07-11 14:57:27.201 +05:30 [DBG] Hosting starting
+2023-07-11 14:57:27.332 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 14:57:27.349 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 14:57:27.395 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 14:57:27.408 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 14:57:27.423 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 14:57:27.426 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 14:57:27.427 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 14:57:27.431 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 14:57:27.434 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 14:57:27.437 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 14:57:27.438 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 14:57:27.946 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 14:57:27.946 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 14:57:27.946 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 14:57:27.946 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 14:57:27.947 +05:30 [INF] Hosting environment: Development
+2023-07-11 14:57:27.947 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 14:57:27.947 +05:30 [DBG] Hosting started
+2023-07-11 14:57:28.040 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 14:57:28.082 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 14:57:28.084 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 14:57:28.116 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 14:57:28.116 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 14:59:04.491 +05:30 [DBG] Hosting starting
+2023-07-11 14:59:04.643 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 14:59:04.668 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 14:59:04.740 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 14:59:04.756 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 14:59:04.768 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 14:59:04.773 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 14:59:04.774 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 14:59:04.779 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 14:59:04.783 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 14:59:04.787 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 14:59:04.788 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 14:59:05.475 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 14:59:05.476 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 14:59:05.476 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 14:59:05.476 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 14:59:05.477 +05:30 [INF] Hosting environment: Development
+2023-07-11 14:59:05.477 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 14:59:05.477 +05:30 [DBG] Hosting started
+2023-07-11 14:59:05.583 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 14:59:05.645 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 14:59:05.648 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 14:59:05.678 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 14:59:05.678 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:03:56.257 +05:30 [DBG] Hosting starting
+2023-07-11 15:03:56.397 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 15:03:56.422 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 15:03:56.481 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 15:03:56.498 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 15:03:56.514 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:03:56.518 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 15:03:56.520 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:03:56.524 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 15:03:56.527 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 15:03:56.530 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 15:03:56.531 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 15:03:57.141 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 15:03:57.141 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 15:03:57.141 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 15:03:57.142 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 15:03:57.142 +05:30 [INF] Hosting environment: Development
+2023-07-11 15:03:57.142 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 15:03:57.142 +05:30 [DBG] Hosting started
+2023-07-11 15:03:57.214 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 15:03:57.270 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 15:03:57.275 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 15:03:57.315 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 15:03:57.315 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:03:57.499 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:03:57.768 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-11 15:03:57.810 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-11 15:03:57.817 +05:30 [INF] Request finished in 605.8341ms 200 text/html;charset=utf-8
+2023-07-11 15:03:58.067 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-11 15:03:58.071 +05:30 [INF] Request finished in 4.816ms 200 application/javascript; charset=utf-8
+2023-07-11 15:03:58.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-11 15:03:58.257 +05:30 [INF] Request finished in 136.6545ms 200 text/javascript; charset=UTF-8
+2023-07-11 15:03:58.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:03:58.847 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:03:58.847 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:03:58.848 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:03:58.949 +05:30 [INF] Request finished in 106.6523ms 200 application/json;charset=utf-8
+2023-07-11 15:05:41.427 +05:30 [DBG] Hosting starting
+2023-07-11 15:05:41.586 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 15:05:41.606 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 15:05:41.668 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 15:05:41.684 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 15:05:41.701 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:05:41.710 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 15:05:41.713 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:05:41.718 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 15:05:41.722 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 15:05:41.726 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 15:05:41.726 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 15:05:42.591 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 15:05:42.591 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 15:05:42.591 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 15:05:42.592 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 15:05:42.592 +05:30 [INF] Hosting environment: Development
+2023-07-11 15:05:42.592 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 15:05:42.592 +05:30 [DBG] Hosting started
+2023-07-11 15:05:42.757 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 15:05:42.808 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 15:05:42.811 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 15:05:42.853 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 15:05:42.854 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:05:42.991 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:05:43.260 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-11 15:05:43.307 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-11 15:05:43.312 +05:30 [INF] Request finished in 562.7127ms 200 text/html;charset=utf-8
+2023-07-11 15:05:43.624 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-11 15:05:43.630 +05:30 [INF] Request finished in 6.4009ms 200 application/javascript; charset=utf-8
+2023-07-11 15:05:43.953 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-11 15:05:44.029 +05:30 [INF] Request finished in 76.4502ms 200 text/javascript; charset=UTF-8
+2023-07-11 15:05:44.685 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:05:44.686 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:05:44.686 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:05:44.688 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:05:44.808 +05:30 [INF] Request finished in 123.1463ms 200 application/json;charset=utf-8
+2023-07-11 15:06:22.690 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:06:22.691 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:06:22.692 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:06:22.694 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:06:22.700 +05:30 [INF] Request finished in 10.1593ms 200 application/json;charset=utf-8
+2023-07-11 15:06:48.547 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:52268/api/Courseware/StudentEnrollToCourse?studentId=1&courseId=1  0
+2023-07-11 15:06:48.550 +05:30 [DBG] The request has an origin header: 'http://localhost:51655'.
+2023-07-11 15:06:48.550 +05:30 [INF] CORS policy execution successful.
+2023-07-11 15:06:48.581 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:06:48.586 +05:30 [DBG] Endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)' with route pattern 'api/Courseware/StudentEnrollToCourse' is valid for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:06:48.586 +05:30 [DBG] Request matched endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:06:48.832 +05:30 [INF] Successfully validated the token.
+2023-07-11 15:06:48.833 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-07-11 15:06:48.840 +05:30 [INF] Authorization was successful.
+2023-07-11 15:06:48.842 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-11 15:06:48.843 +05:30 [INF] Executing endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:06:48.855 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2023-07-11 15:06:48.892 +05:30 [INF] Route matched with {action = "StudentEnrollToCourse", controller = "Courseware"}. Executing controller action with signature System.String StudentEnrollToCourse(Int32, Int32) on controller Courseware.Controllers.CoursewareController (Courseware).
+2023-07-11 15:06:48.893 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-11 15:06:48.893 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-11 15:06:48.893 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-11 15:06:48.894 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-11 15:06:48.894 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-11 15:06:48.895 +05:30 [DBG] Executing controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-11 15:06:48.902 +05:30 [INF] Executed action Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware) in 3.2373ms
+2023-07-11 15:06:48.903 +05:30 [INF] Executed endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:06:48.905 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Courseware.Repository.Interface.ICourseware' while attempting to activate 'Courseware.Controllers.CoursewareController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-11 15:06:48.964 +05:30 [INF] Request finished in 417.988ms 500 text/plain
+2023-07-11 15:11:45.402 +05:30 [DBG] Hosting starting
+2023-07-11 15:11:45.541 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 15:11:45.558 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 15:11:45.623 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 15:11:45.638 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 15:11:45.650 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:11:45.654 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 15:11:45.656 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:11:45.661 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 15:11:45.664 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 15:11:45.668 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 15:11:45.668 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 15:11:46.113 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 15:11:46.113 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 15:11:46.113 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 15:11:46.115 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 15:11:46.115 +05:30 [INF] Hosting environment: Development
+2023-07-11 15:11:46.115 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 15:11:46.115 +05:30 [DBG] Hosting started
+2023-07-11 15:11:46.285 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 15:11:46.334 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 15:11:46.337 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 15:11:46.365 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 15:11:46.365 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:11:46.735 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:11:47.102 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-11 15:11:47.133 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-11 15:11:47.139 +05:30 [INF] Request finished in 860.0464ms 200 text/html;charset=utf-8
+2023-07-11 15:11:47.184 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-11 15:11:47.188 +05:30 [INF] Request finished in 3.4087ms 200 application/javascript; charset=utf-8
+2023-07-11 15:11:47.232 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-11 15:11:47.271 +05:30 [INF] Request finished in 38.9602ms 200 text/javascript; charset=UTF-8
+2023-07-11 15:11:47.613 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:11:47.615 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:11:47.616 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:11:47.616 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:11:47.727 +05:30 [INF] Request finished in 113.6159ms 200 application/json;charset=utf-8
+2023-07-11 15:13:36.902 +05:30 [DBG] Hosting starting
+2023-07-11 15:13:37.071 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 15:13:37.085 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 15:13:37.177 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 15:13:37.194 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 15:13:37.205 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:13:37.209 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 15:13:37.211 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:13:37.215 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 15:13:37.218 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 15:13:37.223 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 15:13:37.223 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 15:13:37.794 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 15:13:37.794 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 15:13:37.794 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 15:13:37.794 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 15:13:37.794 +05:30 [INF] Hosting environment: Development
+2023-07-11 15:13:37.795 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 15:13:37.795 +05:30 [DBG] Hosting started
+2023-07-11 15:13:37.884 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 15:13:37.950 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 15:13:37.954 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 15:13:37.993 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 15:13:37.994 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:13:38.294 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:13:38.583 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-11 15:13:38.611 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-11 15:13:38.616 +05:30 [INF] Request finished in 735.004ms 200 text/html;charset=utf-8
+2023-07-11 15:13:38.762 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-11 15:13:38.768 +05:30 [INF] Request finished in 6.0097ms 200 application/javascript; charset=utf-8
+2023-07-11 15:13:38.854 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-11 15:13:38.935 +05:30 [INF] Request finished in 80.7012ms 200 text/javascript; charset=UTF-8
+2023-07-11 15:13:39.264 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:13:39.266 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:13:39.266 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:13:39.267 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:13:39.373 +05:30 [INF] Request finished in 109.93ms 200 application/json;charset=utf-8
+2023-07-11 15:14:20.948 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:14:20.950 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:14:20.950 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:14:20.952 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:14:20.976 +05:30 [INF] Request finished in 27.3806ms 200 application/json;charset=utf-8
+2023-07-11 15:14:50.077 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:52268/api/Courseware/StudentEnrollToCourse?studentId=1&courseId=1  0
+2023-07-11 15:14:50.079 +05:30 [DBG] The request has an origin header: 'http://localhost:51655'.
+2023-07-11 15:14:50.080 +05:30 [INF] CORS policy execution successful.
+2023-07-11 15:14:50.102 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:14:50.106 +05:30 [DBG] Endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)' with route pattern 'api/Courseware/StudentEnrollToCourse' is valid for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:14:50.106 +05:30 [DBG] Request matched endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:14:50.364 +05:30 [INF] Successfully validated the token.
+2023-07-11 15:14:50.365 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-07-11 15:14:50.367 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-11 15:14:50.368 +05:30 [INF] Executing endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:14:50.383 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2023-07-11 15:14:50.414 +05:30 [INF] Route matched with {action = "StudentEnrollToCourse", controller = "Courseware"}. Executing controller action with signature System.String StudentEnrollToCourse(Int32, Int32) on controller Courseware.Controllers.CoursewareController (Courseware).
+2023-07-11 15:14:50.415 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-11 15:14:50.415 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-11 15:14:50.415 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-11 15:14:50.416 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-11 15:14:50.416 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-11 15:14:50.418 +05:30 [DBG] Executing controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-11 15:14:50.428 +05:30 [INF] Executed action Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware) in 5.5287ms
+2023-07-11 15:14:50.430 +05:30 [INF] Executed endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:14:50.431 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Courseware.Repository.Interface.ICourseware' while attempting to activate 'Courseware.Controllers.CoursewareController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-11 15:14:50.483 +05:30 [INF] Request finished in 412.713ms 500 text/plain
+2023-07-11 15:16:32.596 +05:30 [DBG] Hosting starting
+2023-07-11 15:16:32.795 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 15:16:32.808 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 15:16:32.974 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 15:16:32.988 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 15:16:33.011 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:16:33.017 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 15:16:33.018 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:16:33.023 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 15:16:33.025 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 15:16:33.028 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 15:16:33.029 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 15:16:33.898 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 15:16:33.899 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 15:16:33.899 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 15:16:33.899 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 15:16:33.899 +05:30 [INF] Hosting environment: Development
+2023-07-11 15:16:33.899 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 15:16:33.899 +05:30 [DBG] Hosting started
+2023-07-11 15:16:34.015 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 15:16:34.091 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 15:16:34.103 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 15:16:34.141 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 15:16:34.141 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:16:34.337 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:16:34.637 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-11 15:16:34.694 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-11 15:16:34.698 +05:30 [INF] Request finished in 686.6513ms 200 text/html;charset=utf-8
+2023-07-11 15:16:35.401 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-11 15:16:35.405 +05:30 [INF] Request finished in 4.8611ms 200 application/javascript; charset=utf-8
+2023-07-11 15:16:35.493 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-11 15:16:35.538 +05:30 [INF] Request finished in 45.4811ms 200 text/javascript; charset=UTF-8
+2023-07-11 15:16:36.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:16:36.030 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:16:36.031 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:16:36.032 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:16:36.151 +05:30 [INF] Request finished in 122.2304ms 200 application/json;charset=utf-8
+2023-07-11 15:17:44.621 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:17:44.622 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:17:44.622 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:17:44.625 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:17:44.650 +05:30 [INF] Request finished in 29.5183ms 200 application/json;charset=utf-8
+2023-07-11 15:18:08.055 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:52268/api/Courseware/StudentEnrollToCourse?studentId=1&courseId=1  0
+2023-07-11 15:18:08.058 +05:30 [DBG] The request has an origin header: 'http://localhost:51655'.
+2023-07-11 15:18:08.058 +05:30 [INF] CORS policy execution successful.
+2023-07-11 15:18:08.081 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:18:08.085 +05:30 [DBG] Endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)' with route pattern 'api/Courseware/StudentEnrollToCourse' is valid for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:18:08.086 +05:30 [DBG] Request matched endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:18:08.318 +05:30 [INF] Successfully validated the token.
+2023-07-11 15:18:08.320 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-07-11 15:18:08.323 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-11 15:18:08.324 +05:30 [INF] Executing endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:18:08.338 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2023-07-11 15:18:08.365 +05:30 [INF] Route matched with {action = "StudentEnrollToCourse", controller = "Courseware"}. Executing controller action with signature System.String StudentEnrollToCourse(Int32, Int32) on controller Courseware.Controllers.CoursewareController (Courseware).
+2023-07-11 15:18:08.365 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-11 15:18:08.366 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-11 15:18:08.366 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-11 15:18:08.367 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-11 15:18:08.367 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-11 15:18:08.368 +05:30 [DBG] Executing controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-11 15:18:08.447 +05:30 [DBG] Executed controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-11 15:18:08.459 +05:30 [DBG] Attempting to bind parameter 'studentId' of type 'System.Int32' ...
+2023-07-11 15:18:08.466 +05:30 [DBG] Attempting to bind parameter 'studentId' of type 'System.Int32' using the name 'studentId' in request data ...
+2023-07-11 15:18:08.468 +05:30 [DBG] Done attempting to bind parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:18:08.470 +05:30 [DBG] Done attempting to bind parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:18:08.470 +05:30 [DBG] Attempting to validate the bound parameter 'studentId' of type 'System.Int32' ...
+2023-07-11 15:18:08.473 +05:30 [DBG] Done attempting to validate the bound parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:18:08.476 +05:30 [DBG] Attempting to bind parameter 'courseId' of type 'System.Int32' ...
+2023-07-11 15:18:08.477 +05:30 [DBG] Attempting to bind parameter 'courseId' of type 'System.Int32' using the name 'courseId' in request data ...
+2023-07-11 15:18:08.477 +05:30 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:18:08.477 +05:30 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:18:08.477 +05:30 [DBG] Attempting to validate the bound parameter 'courseId' of type 'System.Int32' ...
+2023-07-11 15:18:08.478 +05:30 [DBG] Done attempting to validate the bound parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:18:08.574 +05:30 [INF] Executing action method Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware) - Validation state: "Valid"
+2023-07-11 15:18:56.996 +05:30 [DBG] Hosting starting
+2023-07-11 15:18:57.155 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 15:18:57.175 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 15:18:57.236 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 15:18:57.255 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 15:18:57.267 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:18:57.270 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 15:18:57.272 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:18:57.276 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 15:18:57.284 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 15:18:57.288 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 15:18:57.289 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 15:18:57.904 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 15:18:57.904 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 15:18:57.904 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 15:18:57.905 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 15:18:57.905 +05:30 [INF] Hosting environment: Development
+2023-07-11 15:18:57.905 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 15:18:57.905 +05:30 [DBG] Hosting started
+2023-07-11 15:18:58.025 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 15:18:58.081 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 15:18:58.083 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 15:18:58.111 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 15:18:58.112 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:18:58.335 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:18:58.579 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-11 15:18:58.615 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-11 15:18:58.621 +05:30 [INF] Request finished in 598.8691ms 200 text/html;charset=utf-8
+2023-07-11 15:18:58.709 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-11 15:18:58.710 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-11 15:18:58.725 +05:30 [INF] Request finished in 15.9051ms 200 application/javascript; charset=utf-8
+2023-07-11 15:18:58.811 +05:30 [INF] Request finished in 100.6282ms 200 text/javascript; charset=UTF-8
+2023-07-11 15:18:58.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:18:58.960 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:18:58.960 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:18:58.961 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:18:59.136 +05:30 [INF] Request finished in 175.938ms 200 application/json;charset=utf-8
+2023-07-11 15:19:48.194 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:19:48.195 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:19:48.195 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:19:48.197 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:19:48.203 +05:30 [INF] Request finished in 8.9685ms 200 application/json;charset=utf-8
+2023-07-11 15:20:14.792 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:52268/api/Courseware/StudentEnrollToCourse?studentId=1&courseId=1  0
+2023-07-11 15:20:14.795 +05:30 [DBG] The request has an origin header: 'http://localhost:51655'.
+2023-07-11 15:20:14.795 +05:30 [INF] CORS policy execution successful.
+2023-07-11 15:20:14.819 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:20:14.824 +05:30 [DBG] Endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)' with route pattern 'api/Courseware/StudentEnrollToCourse' is valid for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:20:14.824 +05:30 [DBG] Request matched endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:20:15.037 +05:30 [INF] Successfully validated the token.
+2023-07-11 15:20:15.038 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-07-11 15:20:15.043 +05:30 [INF] Authorization failed.
+2023-07-11 15:20:15.045 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-07-11 15:20:15.048 +05:30 [INF] Request finished in 256.5836ms 403 
+2023-07-11 15:21:00.807 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:21:00.810 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:21:00.811 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:21:00.812 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:21:00.829 +05:30 [INF] Request finished in 28.4542ms 200 application/json;charset=utf-8
+2023-07-11 15:21:17.239 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:52268/api/Courseware/StudentEnrollToCourse?studentId=1&courseId=1  0
+2023-07-11 15:21:17.240 +05:30 [DBG] The request has an origin header: 'http://localhost:51655'.
+2023-07-11 15:21:17.240 +05:30 [INF] CORS policy execution successful.
+2023-07-11 15:21:17.243 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:21:17.243 +05:30 [DBG] Endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)' with route pattern 'api/Courseware/StudentEnrollToCourse' is valid for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:21:17.243 +05:30 [DBG] Request matched endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:21:17.245 +05:30 [INF] Successfully validated the token.
+2023-07-11 15:21:17.246 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-07-11 15:21:17.248 +05:30 [INF] Authorization was successful.
+2023-07-11 15:21:17.249 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-11 15:21:17.250 +05:30 [INF] Executing endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:21:17.263 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2023-07-11 15:21:17.301 +05:30 [INF] Route matched with {action = "StudentEnrollToCourse", controller = "Courseware"}. Executing controller action with signature System.String StudentEnrollToCourse(Int32, Int32) on controller Courseware.Controllers.CoursewareController (Courseware).
+2023-07-11 15:21:17.301 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-11 15:21:17.302 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-11 15:21:17.302 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-11 15:21:17.302 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-11 15:21:17.302 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-11 15:21:17.303 +05:30 [DBG] Executing controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-11 15:21:17.397 +05:30 [DBG] Executed controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-11 15:21:17.404 +05:30 [DBG] Attempting to bind parameter 'studentId' of type 'System.Int32' ...
+2023-07-11 15:21:17.408 +05:30 [DBG] Attempting to bind parameter 'studentId' of type 'System.Int32' using the name 'studentId' in request data ...
+2023-07-11 15:21:17.409 +05:30 [DBG] Done attempting to bind parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:21:17.409 +05:30 [DBG] Done attempting to bind parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:21:17.409 +05:30 [DBG] Attempting to validate the bound parameter 'studentId' of type 'System.Int32' ...
+2023-07-11 15:21:17.412 +05:30 [DBG] Done attempting to validate the bound parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:21:17.414 +05:30 [DBG] Attempting to bind parameter 'courseId' of type 'System.Int32' ...
+2023-07-11 15:21:17.414 +05:30 [DBG] Attempting to bind parameter 'courseId' of type 'System.Int32' using the name 'courseId' in request data ...
+2023-07-11 15:21:17.414 +05:30 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:21:17.414 +05:30 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:21:17.415 +05:30 [DBG] Attempting to validate the bound parameter 'courseId' of type 'System.Int32' ...
+2023-07-11 15:21:17.415 +05:30 [DBG] Done attempting to validate the bound parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:21:17.542 +05:30 [INF] Executing action method Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware) - Validation state: "Valid"
+2023-07-11 15:34:36.474 +05:30 [DBG] Hosting starting
+2023-07-11 15:34:36.672 +05:30 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 15:34:36.696 +05:30 [DBG] Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-aa0e03e4-83a9-442c-ac46-3b471f98a574.xml'.
+2023-07-11 15:34:36.763 +05:30 [DBG] Found key {aa0e03e4-83a9-442c-ac46-3b471f98a574}.
+2023-07-11 15:34:36.777 +05:30 [DBG] Considering key {aa0e03e4-83a9-442c-ac46-3b471f98a574} with expiration date 2023-09-25 06:05:50Z as default key.
+2023-07-11 15:34:36.797 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:34:36.801 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-11 15:34:36.803 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-11 15:34:36.808 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-11 15:34:36.811 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-11 15:34:36.815 +05:30 [DBG] Using key {aa0e03e4-83a9-442c-ac46-3b471f98a574} as the default key.
+2023-07-11 15:34:36.816 +05:30 [DBG] Key ring with default key {aa0e03e4-83a9-442c-ac46-3b471f98a574} was loaded during application startup.
+2023-07-11 15:34:37.638 +05:30 [DBG] Loaded hosting startup assembly Courseware
+2023-07-11 15:34:37.638 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-11 15:34:37.638 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-11 15:34:37.639 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 15:34:37.639 +05:30 [INF] Hosting environment: Development
+2023-07-11 15:34:37.639 +05:30 [INF] Content root path: C:\Users\Administrator\Downloads\LMSAPI-20230623T081252Z-001\LMSAPI\Courseware
+2023-07-11 15:34:37.639 +05:30 [DBG] Hosting started
+2023-07-11 15:34:37.741 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/index.html  
+2023-07-11 15:34:37.793 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-11 15:34:37.795 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-07-11 15:34:37.822 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-11 15:34:37.822 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:34:37.922 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:34:38.163 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-11 15:34:38.192 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-11 15:34:38.196 +05:30 [INF] Request finished in 459.2997ms 200 text/html;charset=utf-8
+2023-07-11 15:34:38.283 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_framework/aspnetcore-browser-refresh.js  
+2023-07-11 15:34:38.287 +05:30 [INF] Request finished in 4.1324ms 200 application/javascript; charset=utf-8
+2023-07-11 15:34:38.311 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/_vs/browserLink  
+2023-07-11 15:34:38.375 +05:30 [INF] Request finished in 63.8982ms 200 text/javascript; charset=UTF-8
+2023-07-11 15:34:38.891 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:34:38.893 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:34:38.893 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:34:38.894 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:34:39.019 +05:30 [INF] Request finished in 128.5945ms 200 application/json;charset=utf-8
+2023-07-11 15:35:19.226 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:35:19.227 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:35:19.228 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:35:19.230 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:35:19.237 +05:30 [INF] Request finished in 10.3502ms 200 application/json;charset=utf-8
+2023-07-11 15:35:53.820 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:52268/api/Courseware/StudentEnrollToCourse?studentId=11&courseId=1  0
+2023-07-11 15:35:53.823 +05:30 [DBG] The request has an origin header: 'http://localhost:51655'.
+2023-07-11 15:35:53.823 +05:30 [INF] CORS policy execution successful.
+2023-07-11 15:35:53.847 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:35:53.851 +05:30 [DBG] Endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)' with route pattern 'api/Courseware/StudentEnrollToCourse' is valid for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:35:53.852 +05:30 [DBG] Request matched endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:35:54.120 +05:30 [INF] Successfully validated the token.
+2023-07-11 15:35:54.122 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-07-11 15:35:54.133 +05:30 [INF] Authorization was successful.
+2023-07-11 15:35:54.134 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-11 15:35:54.135 +05:30 [INF] Executing endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:35:54.145 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2023-07-11 15:35:54.174 +05:30 [INF] Route matched with {action = "StudentEnrollToCourse", controller = "Courseware"}. Executing controller action with signature System.String StudentEnrollToCourse(Int32, Int32) on controller Courseware.Controllers.CoursewareController (Courseware).
+2023-07-11 15:35:54.174 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-11 15:35:54.175 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-11 15:35:54.175 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-11 15:35:54.175 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-11 15:35:54.175 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-11 15:35:54.176 +05:30 [DBG] Executing controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-11 15:35:54.260 +05:30 [DBG] Executed controller factory for controller Courseware.Controllers.CoursewareController (Courseware)
+2023-07-11 15:35:54.269 +05:30 [DBG] Attempting to bind parameter 'studentId' of type 'System.Int32' ...
+2023-07-11 15:35:54.273 +05:30 [DBG] Attempting to bind parameter 'studentId' of type 'System.Int32' using the name 'studentId' in request data ...
+2023-07-11 15:35:54.275 +05:30 [DBG] Done attempting to bind parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:35:54.275 +05:30 [DBG] Done attempting to bind parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:35:54.275 +05:30 [DBG] Attempting to validate the bound parameter 'studentId' of type 'System.Int32' ...
+2023-07-11 15:35:54.280 +05:30 [DBG] Done attempting to validate the bound parameter 'studentId' of type 'System.Int32'.
+2023-07-11 15:35:54.287 +05:30 [DBG] Attempting to bind parameter 'courseId' of type 'System.Int32' ...
+2023-07-11 15:35:54.288 +05:30 [DBG] Attempting to bind parameter 'courseId' of type 'System.Int32' using the name 'courseId' in request data ...
+2023-07-11 15:35:54.288 +05:30 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:35:54.288 +05:30 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:35:54.289 +05:30 [DBG] Attempting to validate the bound parameter 'courseId' of type 'System.Int32' ...
+2023-07-11 15:35:54.289 +05:30 [DBG] Done attempting to validate the bound parameter 'courseId' of type 'System.Int32'.
+2023-07-11 15:35:54.392 +05:30 [INF] Executing action method Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware) - Validation state: "Valid"
+2023-07-11 15:36:17.614 +05:30 [INF] Executed action method Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 23212.1672ms.
+2023-07-11 15:36:17.618 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-11 15:36:17.621 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-07-11 15:36:17.621 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter' and content type 'text/plain' to write the response.
+2023-07-11 15:36:17.621 +05:30 [INF] Executing ObjectResult, writing value of type 'null'.
+2023-07-11 15:36:17.627 +05:30 [INF] Executed action Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware) in 23447.0007ms
+2023-07-11 15:36:17.628 +05:30 [INF] Executed endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:36:17.631 +05:30 [INF] Request finished in 23824.2688ms 204 
+2023-07-11 15:36:55.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:52268/swagger/v1/swagger.json  
+2023-07-11 15:36:55.377 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-11 15:36:55.378 +05:30 [DBG] Request did not match any endpoints
+2023-07-11 15:36:55.387 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-07-11 15:36:55.396 +05:30 [INF] Request finished in 20.289ms 200 application/json;charset=utf-8
+2023-07-11 15:37:14.884 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:52268/api/Courseware/StudentEnrollToCourse?studentId=11&courseId=1  0
+2023-07-11 15:37:14.885 +05:30 [DBG] The request has an origin header: 'http://localhost:51655'.
+2023-07-11 15:37:14.886 +05:30 [INF] CORS policy execution successful.
+2023-07-11 15:37:14.889 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:37:14.889 +05:30 [DBG] Endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)' with route pattern 'api/Courseware/StudentEnrollToCourse' is valid for the request path '/api/Courseware/StudentEnrollToCourse'
+2023-07-11 15:37:14.889 +05:30 [DBG] Request matched endpoint 'Courseware.Controllers.CoursewareController.StudentEnrollToCourse (Courseware)'
+2023-07-11 15:37:14.892 +05:30 [INF] Successfully validated the token.
+2023-07-11 15:37:14.892 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-07-11 15:37:14.893 +05:30 [INF] Authorization failed.
+2023-07-11 15:37:14.896 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-07-11 15:37:14.898 +05:30 [INF] Request finished in 14.1459ms 403 

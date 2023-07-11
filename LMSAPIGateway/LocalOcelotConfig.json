@@ -1,0 +1,151 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/Courseware/StudentEnrollToCourse",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "52268"
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "UpstreamPathTemplate": "/Courseware/StudentEnrollToCourse",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "CourseWare"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Courseware/Catalouge",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "52268"
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "UpstreamPathTemplate": "/Courseware/Catalouge",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "CourseWare"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Courseware/AddCourse",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "52268"
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "UpstreamPathTemplate": "/Courseware/AddCourse",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "CourseWare"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Courseware/UpdateCourse",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "52268"
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "UpstreamPathTemplate": "/Courseware/UpdateCourse",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "CourseWare"
+
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/v1/elms/User/Signin",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "46738"
+        }
+      ],
+      "UpstreamPathTemplate": "/User/Signin",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "User"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/elms/User/Signup",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "46738"
+        }
+      ],
+      "UpstreamPathTemplate": "/User/Signup",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "User"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Authentication/Authenticate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "14973"
+        }
+      ],
+      "UpstreamPathTemplate": "/Authentication/Authenticate",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "Auth"
+
+    }
+  ],
+  "SwaggerEndPoints": [
+    //{
+    //  "Key": "Auth",
+    //  "Config": [
+    //    {
+    //      "Name": "Auth API",
+    //      "Version": "v1",
+    //      "Url": "http://localhost:14973/swagger/v1/swagger.json"
+    //    }
+    //  ]
+    //},
+    {
+      "Key": "User",
+      "Config": [
+        {
+          "Name": "ELMS API",
+          "Version": "v1",
+          "Url": "http://localhost:46738/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "CourseWare",
+      "Config": [
+        {
+          "Name": "CourseWare API",
+          "Version": "v1",
+          "Url": "http://localhost:52268/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
