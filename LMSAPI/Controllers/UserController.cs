@@ -16,7 +16,6 @@ using System;
 
 namespace LMSAPI.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("api/v1/elms/[controller]/[action]")]
     public class UserController : ControllerBase
@@ -39,6 +38,7 @@ namespace LMSAPI.Controllers
         /// <param name="user"></param>
         /// <returns>Success message</returns>
         [HttpPost]
+        [AllowAnonymous]
         public string Signup(User user)
         {
             _logger.LogInformation("Inside Signup method");
